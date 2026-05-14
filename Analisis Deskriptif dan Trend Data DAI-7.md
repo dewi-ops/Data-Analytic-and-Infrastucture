@@ -1,14 +1,15 @@
 # Analisis Deskriptif dan Trend Data 
 
-index,sales,profit
-count,10.0,10.0
-mean,5000000.0,703000.0
-std,5609614.761975886,924623.6471607726
-min,50000.0,-200000.0
-25%,300000.0,56250.0
-50%,3500000.0,295000.0
-75%,7150000.0,1100000.0
-max,14500000.0,2500000.0
+| index | sales | profit |
+|---|---:|---:|
+| count | 10.0 | 10.0 |
+| mean | 5000000.0 | 703000.0 |
+| std | 5609614.761975886 | 924623.6471607726 |
+| min | 50000.0 | -200000.0 |
+| 25% | 300000.0 | 56250.0 |
+| 50% | 3500000.0 | 295000.0 |
+| 75% | 7150000.0 | 1100000.0 |
+| max | 14500000.0 | 2500000.0 |
 
 Berdasarkan analisis deskriptif terhadap data penjualan (*sales*) dan keuntungan (*profit*) dari 10 observasi, dapat dilihat bahwa rata-rata nilai penjualan berada pada angka 5.000.000 dengan rata-rata keuntungan sebesar 703.000. Namun, standar deviasi yang cukup tinggi pada penjualan yaitu sekitar 5.609.615 dan pada keuntungan sekitar 924.624 menunjukkan bahwa data memiliki penyebaran yang besar atau variasi yang cukup tinggi antar transaksi. Hal ini mengindikasikan adanya perbedaan signifikan antara transaksi dengan nilai rendah dan transaksi dengan nilai tinggi.
 
@@ -17,10 +18,11 @@ Nilai penjualan minimum tercatat sebesar 50.000, sedangkan nilai maksimum mencap
 Jika dilihat dari kuartil data, sebanyak 25% transaksi memiliki penjualan di bawah 300.000 dan 75% transaksi berada di bawah 7.150.000. Median penjualan sebesar 3.500.000 menunjukkan bahwa separuh data berada di bawah angka tersebut. Sementara itu, median keuntungan sebesar 295.000 mengindikasikan bahwa sebagian besar transaksi menghasilkan keuntungan yang relatif lebih kecil dibandingkan rata-ratanya. Perbedaan antara nilai mean dan median pada profit juga mengarah pada kemungkinan adanya beberapa transaksi dengan keuntungan sangat tinggi yang memengaruhi rata-rata keseluruhan.
 
 # Data Sales dan Profit
-Category	mean	sum 	count 	Mean	sum 	count 	
-Furniture	4933333.333	14800000	3	500000	1500000	3	
-Office Supplies	250000	500000	2	52500	105000	2	
-Technology	6940000	34700000	5	1085000	5425000	5	
+| Category | Sales Mean | Sales Sum | Sales Count | Profit Mean | Profit Sum | Profit Count |
+|---|---:|---:|---:|---:|---:|---:|
+| Furniture | 4933333.333 | 14800000 | 3 | 500000 | 1500000 | 3 |
+| Office Supplies | 250000 | 500000 | 2 | 52500 | 105000 | 2 |
+| Technology | 6940000 | 34700000 | 5 | 1085000 | 5425000 | 5 |
 														
 # Insight
 Secara umum, data menunjukkan distribusi yang cukup bervariasi dengan adanya potensi ketimpangan antara transaksi kecil dan besar. Selain itu, keberadaan nilai profit negatif menjadi indikasi bahwa evaluasi terhadap efisiensi biaya atau strategi penjualan perlu dilakukan agar seluruh transaksi dapat memberikan keuntungan yang optimal.

@@ -1,38 +1,102 @@
-# Peranan Data dalam Keputusan Bisnis 
-# Landasan Teori 
-Definisi Data
-Data adalah fakta mentah yang belum diolah, seperti angka penjualan, jumlah pelanggan, atau log aktivitas pengguna. Data belum memiliki makna sebelum diproses lebih lanjut.
+# README
 
-Alur Data menjadi Insight
-Data mentah diolah menjadi informasi melalui proses pembersihan dan analisis. Informasi yang dianalisis lebih dalam akan menghasilkan insight.
-Alurnya adalah: Data → Informasi → Insight.
+# Data Infrastructure and Analytics
 
-Peranan Data dalam Bisnis
-Data membantu bisnis dalam:
-Menentukan strategi pemasaran.
-Mengukur KPI (Key Performance Indicator).
-Memprediksi tren dan perilaku pelanggan.
-Dengan data, keputusan bisnis menjadi lebih terukur dan objektif.
+Repository ini berisi materi, praktik, dan pembelajaran dasar mengenai Data Infrastructure and Analytics. Topik yang dibahas mencakup pengenalan data, arsitektur data, proses ETL, pengelolaan data warehouse, data cleaning, hingga analisis deskriptif dan tren data. Materi dirancang untuk membantu memahami bagaimana data dikumpulkan, diproses, disimpan, dan dianalisis untuk mendukung pengambilan keputusan bisnis.
 
-Data-Driven Business
-Data-driven business adalah bisnis yang mengambil keputusan berdasarkan data, bukan hanya intuisi.
-Contohnya adalah Netflix yang menggunakan data untuk merekomendasikan film, dan Gojek yang memanfaatkan data untuk mengatur harga dan layanan.
+---
 
-Peran Infrastruktur Data
-Infrastruktur data berperan dalam menyimpan, mengintegrasikan, dan mengolah data. Tanpa infrastruktur yang baik, data sulit dianalisis dan dimanfaatkan secara maksimal.
+# Materi Pembelajaran
 
-# Praktik sederhana menggunakan Google Colab sebagai platform pengembangan berbasis Python.
+## 1. Pengantar Data
 
-Langkah-langkah Python
+Pada bagian ini dipelajari konsep dasar data, jenis-jenis data, serta pentingnya data dalam pengambilan keputusan. Materi mencakup:
 
-Inisialisasi dasar dengan fungsi:
-print("Hello, Data World!")
-Import library Pandas untuk pengolahan data:
-import pandas as pd
-Memuat dataset bisnis dari sumber publik menggunakan:
-  data = pd.read_csv(url)
-Hasil Inspeksi Data
+* Definisi data dan informasi
+* Jenis data (structured, semi-structured, unstructured)
+* Siklus hidup data
+* Peran data dalam bisnis dan teknologi
 
-data.head() digunakan untuk melihat 5 baris pertama dataset.
+---
 
-data.info() digunakan untuk melihat jumlah baris, nama kolom, serta tipe data.
+## 2. Arsitektur Data & Komponen Data Analytics
+
+Materi ini membahas bagaimana sistem data dibangun dan saling terhubung dalam suatu organisasi. Topik yang dipelajari meliputi:
+
+* Data architecture
+* Data pipeline
+* Database dan storage
+* Data analytics lifecycle
+* Peran data engineer, data analyst, dan data scientist
+
+---
+
+## 3. Konsep Data Warehouse & Data Mart
+
+Pembelajaran berfokus pada sistem penyimpanan data untuk kebutuhan analisis bisnis. Materi mencakup:
+
+* Pengertian Data Warehouse
+* Perbedaan Data Warehouse dan Data Mart
+* ETL dalam data warehouse
+* Skema star dan snowflake
+* Implementasi untuk business intelligence
+
+---
+
+## 4. Data Akuisisi dan Analisis
+
+Bagian ini membahas bagaimana data diperoleh dan digunakan dalam proses analisis. Topik yang dipelajari:
+
+* Sumber data internal dan eksternal
+* Teknik pengumpulan data
+* Import dataset
+* Exploratory Data Analysis (EDA)
+* Visualisasi data dasar
+
+---
+
+## 5. Konsep dan Alur ETL
+
+Materi ETL (Extract, Transform, Load) membahas proses perpindahan data dari sumber menuju sistem analitik. Pembelajaran meliputi:
+
+* Extract data dari berbagai sumber
+* Transform data untuk kebutuhan analisis
+* Load data ke database/data warehouse
+* Workflow ETL
+* Automasi pipeline data
+
+---
+
+## 6. Mengelola Penyimpanan di Cloud
+
+Topik ini memperkenalkan konsep cloud storage untuk pengelolaan data modern. Materi meliputi:
+
+* Cloud computing dasar
+* Penyimpanan data di cloud
+* Keamanan data cloud
+* Skalabilitas storage
+* Pengenalan platform cloud seperti AWS, Google Cloud, dan Azure
+
+---
+
+## 7. Data Cleaning dan Preprocessing
+
+Materi ini berfokus pada proses persiapan data sebelum dianalisis. Topik yang dipelajari:
+
+* Menangani missing value
+* Menghapus duplikasi data
+* Normalisasi dan transformasi data
+* Encoding data kategorikal
+* Validasi kualitas data
+
+---
+
+## 8. Analisis Deskriptif dan Tren Data
+
+Bagian akhir membahas teknik dasar analisis data untuk menemukan insight bisnis. Materi mencakup:
+
+* Statistik deskriptif
+* Mean, median, standar deviasi
+* Analisis tren data
+* Segmentasi kategori
+* Insight dan rekomendasi bisnis berbasis data

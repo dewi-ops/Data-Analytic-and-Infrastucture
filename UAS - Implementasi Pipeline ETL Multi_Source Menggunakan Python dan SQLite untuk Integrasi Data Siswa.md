@@ -1,12 +1,5 @@
 # Implementasi Pipeline ETL Multi-Source Menggunakan Python dan SQLite untuk Integrasi Data Siswa
 
-Download database 
-
-
-## Pendahuluan
-
-Dalam era digital, data sering kali berasal dari berbagai sumber dengan format yang berbeda-beda. Perbedaan format tersebut dapat menjadi tantangan dalam proses pengolahan dan analisis data karena setiap sumber memiliki struktur, skema, dan metode penyimpanan yang berbeda. Oleh karena itu, dibutuhkan suatu mekanisme yang mampu mengintegrasikan data dari berbagai sumber menjadi satu kesatuan yang terstruktur dan mudah dianalisis.
-
 Pada proyek ini dilakukan implementasi proses ETL (Extract, Transform, Load) menggunakan Python untuk mengintegrasikan data siswa dari tiga sumber data yang berbeda, yaitu file CSV, SQL Dump, dan JSON. Hasil integrasi kemudian disimpan ke dalam database SQLite sebagai data warehouse sederhana. Selain itu, proses ETL juga dilengkapi dengan fitur logging dan scheduler untuk mendukung otomatisasi serta monitoring proses pengolahan data.
 
 ## Deskripsi Dataset
